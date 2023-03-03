@@ -7,8 +7,8 @@ namespace GestionClients
         static void Main(string[] args)
         {
             // bloc catégorie
-            Categorie cat1 = new Categorie("CAT001", "Négoce");
-            Categorie cat2 = new Categorie("CAT002", "Distribution");
+            Categorie cat1 = new Categorie("CAT001", "Indépendant");
+            Categorie cat2 = new Categorie("CAT002", "Salarié");
 
             // bloc services
             Service ser1 = new Service("National");
